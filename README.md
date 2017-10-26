@@ -2,7 +2,7 @@
 
 Today we're going to learn how to make an accordion, meaning an area that can collapse to show and hide text. These are very often used on FAQ-websites – so let's build one. The FAQ-website should follow this design: 
 
-![Design](https://github.com/Technigo/assignment-1-yearbook/blob/master/FAQ_design.png)
+![Design](https://github.com/Technigo/assignment-accordion/blob/master/FAQ-design.png)
 
 The Swedish gym chain SATS has a very nice one on their customer service portal, plz see for more inspiration. [Sats Customer Service](https://www.sats.se/kundservice/)
 
