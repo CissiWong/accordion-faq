@@ -9,6 +9,8 @@ The Swedish gym chain SATS has a very nice one on their customer service portal,
 
 ## How to complete this assignment
 
+Start by reading the assigned readings, they will be of great help this time. 
+
 You FAQ need to fulfill the following requirements: 
 1. Expand to show more text on click. 
 2. Text that are expanded should collapse back on click. 
@@ -19,10 +21,17 @@ You FAQ need to fulfill the following requirements:
 
 Don't care right now about fancy animations for when the text shows – let's leave that for the strech goals. 
 
-** Some help along the way** 
+### Tutorial
 
+1. In the `starter-code` you will get a boiler plate HTML to start with. Open it. 
+1. Start by adding the script.js file into the HTML-file in the `<head>` tag. [Hint](https://www.w3schools.com/tags/att_script_src.asp)
+1. The Javascript file contains of a function that toggles the CSS-class to `.active`and a `getElementsbyId`selector that's get's triggered by a click-event. But let's leave this for now. 
+1. In CSS, start by hiding the text we want to expand and collapse. [Hint](https://www.w3schools.com/css/css_display_visibility.asp)
+1. Add another CSS-class that are called ` .active + .panel`. When the Javascript `toggle` is called it will add or remove the class `.active` on the `.accordion` divs. When both the `.active` and the `.panel` are within the same div this is true and this CSS-class will be used. Make this CSS-class show the text by using `display: block`
+1. Does one of your sections now work? Have a look in the inspector to see how the classes changes when you click on them. 
+1. Finish the Javascript-file to apply to all sections. 
 
-Javascript tutorial. 
+We think you can figure out the rest of this assignment. 
 
 To complete this assignment, you need to fork this repository, make a folder in your copy and add your code, and then submit a pull request on GitHub (from your repository into the technigo one) for review. [Read the guide on GitHub](https://guides.github.com/activities/forking/) for more info on how to do this.
 
