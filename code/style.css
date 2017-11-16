@@ -3,10 +3,47 @@ html {
   color: #19171c;
 }
 
+body {
+  display: flex;
+}
+
+h1 {
+  padding: 20px;
+}
+
+div.title:nth-child(3n+1) {
+    background: red;
+}
+
+div.title: {
+    background: green;
+}
+
+.title::before {
+  content:"hello!";
+}
+
+/*.title:nth-child(odd) {
+    background: green;
+}*/
+
 .description {
   display: none;
 }
 
 .active + .description {
   display: block;
+}
+
+.accordion {
+  background: yellow;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  padding: 25px;
+}
+
+#section1, #section2, #section3 {
+  padding: 20px;
 }
