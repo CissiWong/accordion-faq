@@ -53,14 +53,14 @@ After completing this assignment, you should know about how to manipulate the DO
 
 Done with the main task? Here's some ideas for things to continue with:
 
-1. The icons for plus and minus should all be created in CSS.
 1. Make the section titles have a background cover which alternates, so every even title is one colour, and every odd title is another colour.
-1. Add an icon before the title which indicates whether the section is expanded or collapsed. It should update when the section expands or collapses.
+1. Use CSS to add an icon before the title which indicates whether the section is expanded or collapsed. It should update when the section expands or collapses.
 1. On hover, make the color of the section darker. See the [Sats Example](https://www.sats.se/kundservice/) for inspiration.
 1. Add a CSS-animation for when the text expands and collapses. For example a slide-down effect.
-
+1. On hover, change the mouse cursor to something other than the default.
 
 ### :books: :runner: Stretch goal reading list
 
 * [How to make a circle in CSS](https://davidwalsh.name/css-circles)
 * [nth-child in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Anth-child)
+* [CSS Cursor Property](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
