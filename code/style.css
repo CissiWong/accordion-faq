@@ -9,12 +9,9 @@ body {
   padding: 0;
 }
 
-h1 {
-
-}
-
 .accordion {
   background: yellow;
+  display: block;
   height: 600px;
   width: 600px;
   margin: auto;
@@ -41,9 +38,11 @@ h1 {
     background: green;
 }
 
-.title.material-icons::before {
-  content: url("./ic_add_black_24px.svg");
+div.title::before {
+  content: url("./icons/ic_add_black_24px.svg");
 }
-.active.material-icons::before {
-  content: url("./ic_remove_black_24px.svg");
+
+div.active::before {
+  display: inline-block;
+  content: url("./icons/ic_remove_black_24px.svg");
 }
