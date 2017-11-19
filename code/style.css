@@ -25,9 +25,10 @@ p {
   text-transform: none;
 }
 
-.material-icons.red {
+.material-icons {
   color: #CE534D;
 }
+
 
 .accordion {
   background: #DED4B9;
