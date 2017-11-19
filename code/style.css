@@ -1,6 +1,5 @@
 html {
-  background: #f2f1f4;
-  color: #19171c;
+  background: #DED4B9;
 }
 
 body {
@@ -17,13 +16,17 @@ h1 {
   font-size: 64px;
   text-transform: none;
   margin-bottom: 0;
-
+  margin-top: 10px;
+  padding-bottom: 0;
 }
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: none;
+}
 
+.material-icons.red {
+  color: #CE534D;
 }
 
 .accordion {
@@ -31,12 +34,14 @@ p {
   display: block;
   height: 600px;
   width: 600px;
-  margin: auto;
-  padding: 25px;
+  margin: 50px auto auto auto;
+  border-top: 5px solid #46433A;
+  padding: 0 25px 25px 25px;
 }
 
+
 #section1 {
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 #section1, #section2, #section3 {
@@ -45,6 +50,7 @@ p {
 
 .description {
   display: none;
+  padding-left: 54px;
 }
 
 .active + .description {
@@ -60,10 +66,10 @@ p {
 }
 
 div.title::before {
-  content: url("./icons/ic_add_black_24px.svg");
+  content: url("./icons/ic_add_circle_outline_black_24px.svg");
 }
 
 div.active::before {
   display: inline-block;
-  content: url("./icons/ic_remove_black_24px.svg");
+  content: url("./icons/ic_remove_circle_outline_black_24px.svg");
 }
