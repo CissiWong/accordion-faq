@@ -20,7 +20,11 @@ h1 {
 }
 
 .title::before {
-  content:"hello!";
+  content: url();
+}
+
+.active::before {
+  content:"bye!";
 }
 
 /*.title:nth-child(odd) {
