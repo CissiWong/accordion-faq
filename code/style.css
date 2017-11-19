@@ -5,10 +5,33 @@ html {
 
 body {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   padding: 20px;
+}
+
+.accordion {
+  background: yellow;
+  flex-flow: column wrap;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  padding: 25px;
+}
+
+#section1, #section2, #section3 {
+  padding: 20px;
+}
+
+.description {
+  display: none;
+}
+
+.active + .description {
+  display: inline-block;
 }
 
 .title:nth-child(2), .title:nth-child(6){
@@ -19,35 +42,9 @@ h1 {
     background: green;
 }
 
-.title::before {
-  content: url();
+.title.material-icons::before {
+  content: url("./ic_add_black_24px.svg");
 }
-
-.active::before {
-  content:"bye!";
-}
-
-/*.title:nth-child(odd) {
-    background: green;
-}*/
-
-.description {
-  display: none;
-}
-
-.active + .description {
-  display: block;
-}
-
-.accordion {
-  background: yellow;
-  flex-wrap: wrap;
-  height: 600px;
-  width: 600px;
-  margin: auto;
-  padding: 25px;
-}
-
-#section1, #section2, #section3 {
-  padding: 20px;
+.active.material-icons::before {
+  content: url("./ic_add_black_24px.svg");
 }
